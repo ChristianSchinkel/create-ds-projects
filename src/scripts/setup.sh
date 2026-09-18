@@ -7,7 +7,7 @@ echo "Version: 1.0.0"
 echo "Author: Christian Schinkel"
 echo "License: MIT"
 # Ask for Permission to make the main.zsh script executable
-read -p "Do you want to make the main.zsh script executable? (y/n) " answer
+read -p "Do you want to make the main.zsh script executable? (y/N) " answer
 if [[ "$answer" == "y" || "$answer" == "Y" ]]; then
     chmod +x src/scripts/main.zsh
     echo "main.zsh script is now executable."
