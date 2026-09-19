@@ -16,11 +16,11 @@ if [[ "$answer" == "y" || "$answer" == "Y" ]]; then
         sleep 0.1
     done
     echo ""
-    chmod +x src/scripts/main.zsh
+    chmod +x main.zsh
     echo "main.zsh script is now executable."
 else
     echo "main.zsh script is not executable."
     echo "You can make it executable later"
-    echo "by running 'chmod +x src/scripts/main.zsh'."
+    echo "by running 'chmod +x main.zsh'."
 fi
 echo "Setup script completed."
